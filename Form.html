@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>INDjobs.in</title>
+    <style>
+        body {
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWAYHIxME4Uh2WHMCahgP4t-U9MvzNjm_B6tXbjU5-yg&s);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-size: cover;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 50%;
+            margin: auto;
+            text-align: left;
+            box-shadow: 0 0 30px black;
+        }
+
+        legend {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #78bc7a;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #228d27;
+        }
+
+        input[type="reset"] {
+            background-color: #aa4756;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="reset"]:hover {
+            background-color: #FF0000;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1>🇮🇳 Bharat Jobs 🇮🇳</h1>
+    
+
+    <form>
+        <fieldset>
+            <legend>Register Here</legend>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" placeholder="eg. Chaitanya">
+            
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" placeholder="eg. Dalvi"><br>
+            
+            <label for="dob">Enter Date Of Birth:</label>
+            <input type="date" name="dob"><br>
+            
+            <label for="address">Enter Your Address:</label><br>
+            <textarea name="address" rows="3" cols="30"></textarea><br>
+
+            <label for="Mobile number">Mobile number:</label>
+            <input type="tel" name="userid"><br>
+            
+            Gender:
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="Other">Other <br>
+            <br>
+            <br>
+            <label for="State">Enter Your State:</label>
+            <input list="State" name="State" required>
+            <datalist id="State">
+                <!-- Options for states -->
+                <option value="Andhra Pradesh"></option>
+                <option value="Arunachal Pradesh"></option>
+                <option value="Assam"></option>
+                <option value="Bihar"></option>
+                <option value="Chhattisgarh"></option>
+                <option value="Goa"></option>
+                <option value="Haryana"></option>
+                <option value="Himachal Pradesh"></option>
+                <option value="Jharkhand"></option>
+                <option value="Karnataka"></option>
+                <option value="Madhya Pradesh"></option>
+                <option value="Maharashtra"></option>
+                <option value="Manipur"></option>
+                <option value="Meghalaya"></option>
+                <option value="Mizoram"></option>
+                <option value="Nagaland"></option>
+                <option value="Odisha"></option>
+                <option value="Punjab"></option>
+                <option value="Rajasthan"></option>
+                <option value="Sikkim"></option>
+                <option value="Tamil Nadu"></option>
+                <option value="Telangana"></option>
+                <option value="Tripura"></option>
+                <option value="Uttar Pradesh"></option>
+                <option value="Uttarakhand"></option>
+                <option value="West Bengal"></option>
+            </datalist><br>
+            
+            <label for="domain">Enter your Domain:</label>
+            <select name="domain">
+                <!-- Options for domain -->
+                <option value="AI-ML" selected>AI-Ml</option>
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="Backend">Backend</option>
+            </select><br>
+            
+            <label for="Language">Preferred Programming Language:</label>
+            
+            <select id="Language">
+                <!-- Options for browsers -->
+                <option value="Python">Python</option>
+                <option value="C++">C++</option>
+                <option value="JAVA">JAVA</option>
+                <option value="JAVA script">JAVA script</option>
+                <option value="C">C</option>
+            </select><br>
+
+            <label for="Prefered Role">Prefered Role:</label>
+            <select id="Prefered role">
+                <!-- Options for browsers -->
+                <option value="District Engineer">District Engineer</option>
+                <option value="Project Manager">Project Manager</option>
+                <option value="Administrative Officer">Administrative Officer</option>
+                <option value="Assistant Commissioner">Assistant Commissioner</option>
+                <option value="Assistant Executive Engineer">Assistant Executive Engineer</option>
+            </select><br>
+            
+            <input type="submit" name="submit" value="Submit"><br>
+            
+            <input type="reset" name="reset" value="Cancel">
+        </fieldset>
+    </form>
+</body>
+
+</html>
